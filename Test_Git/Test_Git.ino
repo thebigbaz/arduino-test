@@ -1,5 +1,10 @@
 #include "Arduino.h"
-//The setup function is called once at startup of the sketch
+//The setup unction is called once at startup of the sketch
+
+bool not_bollox(){
+	return (true);
+}
+
 void setup()
 {
 // Add your initialization code here
@@ -9,4 +14,8 @@ void setup()
 void loop()
 {
 //Add your repeated code here
+	while(not_bollox())
+	{
+		delay(20);
+	}
 }
